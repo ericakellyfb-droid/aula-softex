@@ -1,0 +1,64 @@
+<header>
+        <h1>exercicio pratico</h1>
+        <p>conteudo: tags semantica, agrupamento, multimida, lista, formulario, tabela</p>
+        <nav>
+            <ul>
+                <li><a href="#semantica">semantica</a></li>
+                <li><a href="#multimida">multimida</a></li>
+                <li><a href="listas">listas</a></li>
+                <li><a href="#formulario">formulario</a></li>
+                <li><a href="#tabela">tabela</a></li>
+                <li><a href="agrupamento">agrupamento</a></li>
+            </ul>
+
+        </nav>
+        </header>
+        <main>
+            <section id="semantica">
+                <h2>layout semantico e agrupamento</h2>
+                <p>as tags semanticas ajudam a organizar e descrever o conteudo</p>
+                <section>
+                 <h4>exemplo agrupamento</h4>
+                 <p>um <code>fieldset</code> é util para agrupar controles relacionados dentro de um formulario</p>
+                 <fieldset>
+                    <legend>dados de exemplo</legend>
+                        <p>nome: <strong>João</strong></p>
+                        <p>email: <strong>junecapopstar@gmail.com</strong></p>
+                 </fieldset>
+                 </section>
+  </section>
+
+  <article>
+    <h2>multimida</h2>
+    <audio controls>
+    <source src="audio exemplo.mp3" type=""></audio>
+
+
+  </article>
+    <form action="#" method="post">
+    <label for="nome">Nome</label>
+    <input type="text" id="nome"
+    placeholder="nome completo" required>
+
+    <label for="senha">Senha</label>
+    <input type="password" id="password"
+    placeholder="digite sua senha" required>
+    <br><br>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email"
+    placeholder="digite seu email" required>
+
+
+    <label for="nascimento">Data de nascimento</label>
+    <input type="date" id="nascimento" name="nascimento">
+    <br><br>
+
+    <label for="curso">curso</label>
+    <select id="curso" name="curso">
+        <option value="/-- selecione --\"></option>
+        <option value="web">desenvolvimento web</option>
+        <option value="prog">programação</option>
+        <option value="desing">desing</option>
+
+    </form>
